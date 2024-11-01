@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ModImp\n"
+"POT-Creation-Date: 2019-03-10 11:21+0100\n"
+"PO-Revision-Date: 2019-03-10 11:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: edobees\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: __docu\n"
+
+#: admin/wpg2mod-admin-ajax.php:39
+msgid "Sorry. Call verification failed."
+msgstr "Der Funktionsaufruf konnte leider nicht verifiziert werden."
+
+#: admin/wpg2mod-admin-ajax.php:60
+msgid "Unknown AJAX call."
+msgstr "Unbekannter AJAX-Aufruf."
+
+#: admin/wpg2mod-admin-ajax.php:95
+#, php-format
+msgid "%d WP Galleries found. %d Modula Galleries created / updated."
+msgstr ""
+"%d WP Bildergalerien gefunden. %d Modula Galerien erzeugt / aktualisiert."
+
+#: admin/wpg2mod-admin-ajax.php:131
+#, php-format
+msgid "Error. Unknown post type \"%s\" to exclude."
+msgstr "Fehler. Unbekannter Beitragstyp \"%s\" in der Ausnahmeliste."
+
+#: admin/wpg2mod-admin-ajax.php:143
+msgid "Settings have been saved."
+msgstr "Einstellungen wurden gespeichert."
+
+#: admin/wpg2mod-admin-ajax.php:191
+msgid "No WP Galleries found."
+msgstr "Keine WP Bildergalerien gefunden."
+
+#: admin/wpg2mod-admin-ajax.php:370
+msgid "Fatal error. Bad Modula image array."
+msgstr "Schwerer Fehler. Fehlerhafte Bilderdaten für Modula."
+
+#: admin/wpg2mod-admin-ajax.php:405
+msgid "Fatal error. Could not create Modula gallery."
+msgstr "Schwerer Fehler: Modula Galerie konnte nicht erstellt werden."
+
+#: admin/wpg2mod-admin-ajax.php:419
+msgid "Fatal error. Could not insert images in Modula gallery."
+msgstr ""
+"Schwerer Fehler: Bilder konnten nicht zur Modula Galerie hinzugefügt werden."
+
+#: admin/wpg2mod-admin-ajax.php:444
+#, php-format
+msgid ""
+"Fatal error. Missing setting template. Looking for Modula Gallery Post: \"%s"
+"\"."
+msgstr ""
+"Schwerer Fehler: Die Galerie-Vorlage für die Einstellungen wurde nicht "
+"gefunden. Gesucht wurde nach: \"%s\"."
+
+#: admin/wpg2mod-admin-ajax.php:580
+msgid "Migration Support Post"
+msgstr "Migration Support Post"
+
+#: admin/wpg2mod-admin-ajax.php:644
+msgid "Default settings restored."
+msgstr "Voreinstellungen wurden wiederhergestellt."
+
+#: admin/wpg2mod-admin.php:70
+msgid "Import WP Galleries"
+msgstr "WP Galerien importieren"
+
+#: admin/wpg2mod-admin.php:71
+msgid "WPG2Mod"
+msgstr "WPG2Mod"
+
+#: admin/wpg2mod-admin.php:119
+msgid "Import and convert existing WordPress Galleries into Modula Galleries."
+msgstr ""
+"Bestehende WordPress Bildergalerien werden in Modula importiert und "
+"angepasst."
+
+#: admin/wpg2mod-admin.php:121
+msgid ""
+"WPG2Mod looks for WordPress Galleries inside your posts and generates Modula "
+"Galleries."
+msgstr ""
+"WPG2Mod durchsucht Ihre Beiträge nach WordPress Bildergalerien und erzeugt "
+"entsprechende Modula Galerien."
+
+#: admin/wpg2mod-admin.php:123
+msgid "Make sure to backup your data before using WPG2Mod!"
+msgstr ""
+"Bevor Sie WPG2Mod benutzen, sollten Sie ein Back-up Ihrer Daten anlegen!"
+
+#: admin/wpg2mod-admin.php:130
+msgid "Import WPG"
+msgstr "WPG importieren"
+
+#: admin/wpg2mod-admin.php:155
+msgid "WPG2Mod's Settings"
+msgstr "Einstellungen für WPG2Mod"
+
+#: admin/wpg2mod-admin.php:164
+msgid "Excluded Post Types"
+msgstr "Ausgeschlossene Beitragstypen"
+
+#: admin/wpg2mod-admin.php:169
+msgid ""
+"Comma-separated list of post types to be excluded from the WP Gallery\n"
+"\t\t\t  search.<br>Typical exclusions: attachment, nav_menu_item, revision."
+msgstr ""
+"Durch Komma getrennte Liste von Beitragstypen, die nicht durchsucht werden."
+"<br>Typische Ausnahmen: attachment, nav_menu_item, revision."
+
+#: admin/wpg2mod-admin.php:181
+msgid "Use Modula Setting Template?"
+msgstr "Modula-Vorlage für Einstellungen verwenden?"
+
+#: admin/wpg2mod-admin.php:187
+msgid "Tick to use the template."
+msgstr "Bitte ankreuzen, wenn die Vorlage verwendet werden soll."
+
+#: admin/wpg2mod-admin.php:189
+#, php-format
+msgid ""
+"If ticked, WPG2Mod will use the settings of the Modula Gallery <strong>&lt;"
+"%s&gt;</strong> for the generated galleries."
+msgstr ""
+"Wenn diese Option gewählt ist, überträgt WPG2Mod die Einstellungen von "
+"<strong>&lt;%s&gt;</strong>auf die neu erstellten Galerien."
+
+#: admin/wpg2mod-admin.php:198
+msgid "On-the-fly WP Gallery Conversion"
+msgstr "Direkte Konvertierung der WP Bildergalerien"
+
+#: admin/wpg2mod-admin.php:204
+msgid "Tick to display a Modula Gallery."
+msgstr "Bitte ankreuzen, wenn Modula Galerien angezeigt werden sollen."
+
+#: admin/wpg2mod-admin.php:206
+msgid ""
+"If ticked, WPG2Mod will expand a WP Gallery shortcode to a matching Modula "
+"Gallery.<br>A Modula gallery will be created if necessary."
+msgstr ""
+"Wenn diese Option gewählt ist, ersetzt WPG2Mod die WordPress Bildergalerien "
+"unmittelbar durch die entsprechenden Modula Galerie.<br>Falls nötig, wird "
+"eine neue Modula Galerie erzeugt."
+
+#: admin/wpg2mod-admin.php:215
+msgid "Restore Defaults"
+msgstr "Voreinstellungen"
+
+#: admin/wpg2mod-admin.php:217
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: public/wpg2mod-public-old.php:127 public/wpg2mod-public.php:128
+msgid "Sorry, this WP Gallery could not be converted."
+msgstr "Leider konnte diese WP Bildergalerie nicht konvertiert werden."
+
+#: wpg2mod.php:85
+msgid "It seems as if Modula has not been installed / activated."
+msgstr "Es sieht so aus, als ob Modula nicht installiert /aktiviert ist."

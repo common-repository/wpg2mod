@@ -1,0 +1,124 @@
+/** ------------------------------------------------------------------------ *\
+ *	WPG2Mod's CSS for admin page and AJAX action. 
+ *
+ * 	@package    	WPG2Mod
+ * 	@subpackage 	WPG2Mod/admin/css
+ * 	@license 		GPL-3
+ * 	@version		1.0.1
+ * 	@author			edobees
+ *
+ *  Date: 9. Mar. 2019 
+\** ------------------------------------------------------------------------ */	
+/* Outmost wrapper */
+.wpg2mod_wrap {
+	margin-right:30px;
+	/*max-width:750px;*/
+}
+/* version info */
+.wpg2mod_wrap h1 span {
+	display:inline-block;
+	margin-left:10px;
+	font-size:10pt;
+}
+/* header left */
+.hl {
+	float:left;
+	max-width:500px;
+	margin-right:20px;	
+}
+.hl p {
+	margin:10px 0px 10px 0px;
+}
+.hl p.wpg2mod_bu_warn span {
+	font-style:italic;
+	padding-bottom:3px;
+	border-bottom:1px solid rgba(224, 30, 30, 0.7);
+}
+.hl p.submit {
+	text-align:center;
+}
+/* header right */
+.hr {
+	margin-top:15px;
+}
+.hr img {
+	height:128px;
+	width:128px;
+	margin:0px 0px 6px 0px;
+}
+@media only screen and (max-width: 730px) {
+	.hr img { display:none; }
+}
+/* get rid of floats */
+p.clear {
+	clear:both;
+}
+/* Settings section */
+.wpg2mod_settings {
+	margin:20px 0px 20px 0px;
+}
+.wpg2mod_settings h3,
+.wpg2mod_settings label {
+	display:block;
+	margin:25px 0px 25px 0px;
+	font-size:15px;
+	font-weight:600;
+}
+.wpg2mod_settings h3 { /* to align checkboxes! */
+	margin-bottom:10px;
+}
+.wpg2mod_settings h3 span,
+.wpg2mod_settings label span {
+	border-bottom:1px solid rgba(224, 168, 72, 1); /* WP color */
+	padding-bottom:3px;
+}
+.wpg2mod_settings input[type="text"] {
+	width:40%;
+	min-width:250px;
+}
+.wpg2mod_settings input[type="checkbox"] {
+	margin:17px 20px 15px 15px;	
+}
+input#s_restore {
+	margin-right:50px;
+}
+input#s_save {
+	font-weight:600;
+}
+.wpg2mod_settings label.checkker {
+	display:inline;
+	font-size:14px;
+	height:18px;
+	font-weight:400;
+	vertical-align:middle;
+	margin-left:0px;
+}
+.wpg2mod_settings label.checkker {
+	display:inline;
+	font-size:14px;
+	height:18px;
+	font-weight:400;
+	vertical-align:middle;
+	margin-left:0px;
+}
+
+/* Action section */
+.wpg2mod_action {
+	margin: 30px 0px 30px 0px;
+}
+
+/* Spinner/Loader */
+.wpg2_spinner {
+	position:relative;
+	width:100%;
+}
+.wpg2_spinner p {
+	position:absolute;
+	background-image:url("..\\img\\snake.gif");
+	width:64px;
+	height:64px;
+	top:-80px;
+	left:50%;
+	transform:translateX(-50%);
+	display:none;
+}
